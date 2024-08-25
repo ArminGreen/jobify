@@ -1,9 +1,5 @@
 "use client";
-import {
-  GetSingleJobAction,
-  GetStatsAction,
-  UpdateJobAction,
-} from "@/utils/actions";
+import { GetSingleJobAction, UpdateJobAction } from "@/utils/actions";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useToast } from "./ui/use-toast";
 import { useRouter } from "next/navigation";
