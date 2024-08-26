@@ -11,7 +11,7 @@ async function JobsPage() {
   const queryClient = new QueryClient();
 
   await queryClient.prefetchQuery({
-    queryKey: ["jobs", "", "all", 1],
+    queryKey: ["jobs", "all"],
     queryFn: () => GetAllJobsAction({}),
   });
   return (

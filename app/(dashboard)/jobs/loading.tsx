@@ -10,7 +10,7 @@ function loading() {
   );
 }
 
-export function SearchSkeleton() {
+function SearchSkeleton() {
   return (
     <div className="flex items-center space-x-4">
       <div className="space-y-2">
