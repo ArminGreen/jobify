@@ -1,4 +1,3 @@
-"use server";
 import EditJobForm from "@/components/EditJobForm";
 import { GetSingleJobAction } from "@/utils/actions";
 
@@ -17,7 +16,7 @@ async function JobDetailPage({ params }: { params: { id: string } }) {
   });
 
   return (
-    <HydrationBoundary state={dehydrate(queryClient)}>
+    <HydrationBoundary>
       <EditJobForm jobId={params.id} />
     </HydrationBoundary>
   );
