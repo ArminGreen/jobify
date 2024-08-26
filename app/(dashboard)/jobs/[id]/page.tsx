@@ -1,3 +1,4 @@
+"use server";
 import EditJobForm from "@/components/EditJobForm";
 import { GetSingleJobAction } from "@/utils/actions";
 
