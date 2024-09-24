@@ -10,7 +10,7 @@ function Navbar() {
       </div>
       <div className="flex items-center gap-x-4">
         <ThemeToggle />
-        <UserButton afterSignOutUrl="/" />
+        <UserButton />
       </div>
     </nav>
   );
